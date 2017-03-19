@@ -1,6 +1,6 @@
 security:
   user:
-    password: password
+    password: siema
 logging:
   level:
     org.springframework.security: DEBUG
