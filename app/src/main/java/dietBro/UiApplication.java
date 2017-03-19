@@ -1,4 +1,4 @@
-package demo;
+package dietBro;
 
 import java.security.Principal;
 import java.util.HashMap;
@@ -31,6 +31,7 @@ public class UiApplication {
 	@RequestMapping("/user")
 	@ResponseBody
 	public Principal user(Principal user) {
+		
 		return user;
 	}
 
